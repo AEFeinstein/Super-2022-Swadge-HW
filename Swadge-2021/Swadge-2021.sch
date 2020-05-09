@@ -684,81 +684,79 @@ Wire Notes Line
 $Comp
 L Swadge_Parts:AP2114H-3.3TRG1 U2
 U 1 1 5C3ED77E
-P 10350 1150
-F 0 "U2" H 10350 1392 50  0000 C CNN
-F 1 "AP1117-33" H 10350 1301 50  0000 C CNN
-F 2 "Swadge_Parts:SOT-223-3_TabPin2" H 10350 1350 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 10450 900 50  0001 C CNN
-F 4 "37" H 0   0   50  0001 C CNN "Cost100"
-F 5 "AP2114H-3.3TRG1DICT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    10350 1150
+P 9400 1150
+F 0 "U2" H 9400 1392 50  0000 C CNN
+F 1 "AP1117-33" H 9400 1301 50  0000 C CNN
+F 2 "Swadge_Parts:SOT-223-3_TabPin2" H 9400 1350 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" H 9500 900 50  0001 C CNN
+F 4 "37" H -950 0   50  0001 C CNN "Cost100"
+F 5 "AP2114H-3.3TRG1DICT-ND" H -950 0   50  0001 C CNN "Digikey"
+F 6 "Y" H -950 0   50  0001 C CNN "Substitutable"
+	1    9400 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Swadge_Parts:USB_B_Micro J1
 U 1 1 5C3ED8E1
-P 9650 1150
-F 0 "J1" H 9705 1617 50  0000 C CNN
-F 1 "USB_B_Micro" H 9705 1526 50  0000 C CNN
-F 2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" H 9800 1100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 9800 1100 50  0001 C CNN
-F 4 "112" H 0   0   50  0001 C CNN "Cost100"
-F 5 "WM17141CT-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    9650 1150
+P 8700 1150
+F 0 "J1" H 8755 1617 50  0000 C CNN
+F 1 "USB_B_Micro" H 8755 1526 50  0000 C CNN
+F 2 "Swadge_Parts:USB_Micro-B_Molex_47346-0001" H 8850 1100 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 8850 1100 50  0001 C CNN
+F 4 "112" H -950 0   50  0001 C CNN "Cost100"
+F 5 "WM17141CT-ND" H -950 0   50  0001 C CNN "Digikey"
+F 6 "Y" H -950 0   50  0001 C CNN "Substitutable"
+	1    8700 1150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9950 1150
-NoConn ~ 9950 1250
+NoConn ~ 9000 1150
+NoConn ~ 9000 1250
 $Comp
 L power:GND #PWR023
 U 1 1 5C3F0918
-P 9550 1550
-F 0 "#PWR023" H 9550 1300 50  0001 C CNN
-F 1 "GND" H 9555 1377 50  0000 C CNN
-F 2 "" H 9550 1550 50  0001 C CNN
-F 3 "" H 9550 1550 50  0001 C CNN
-	1    9550 1550
+P 8600 1550
+F 0 "#PWR023" H 8600 1300 50  0001 C CNN
+F 1 "GND" H 8605 1377 50  0000 C CNN
+F 2 "" H 8600 1550 50  0001 C CNN
+F 3 "" H 8600 1550 50  0001 C CNN
+	1    8600 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 1550 9550 1550
-NoConn ~ 9950 1350
+	8700 1550 8600 1550
+NoConn ~ 9000 1350
 $Comp
 L Swadge_Parts:SW_SPDT SW6
 U 1 1 5C3F7306
-P 10850 1500
-F 0 "SW6" H 10850 1800 50  0000 C CNN
-F 1 "SW_SPDT" H 10850 1700 50  0000 C CNN
-F 2 "Swadge_Parts:SW_SPDT_PCM12" H 10850 1500 50  0001 C CNN
-F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 10850 1500 50  0001 C CNN
-F 4 "96" H 0   0   50  0001 C CNN "Cost100"
-F 5 "401-2016-1-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    10850 1500
+P 9900 1500
+F 0 "SW6" H 9900 1800 50  0000 C CNN
+F 1 "SW_SPDT" H 9900 1700 50  0000 C CNN
+F 2 "Swadge_Parts:SW_SPDT_PCM12" H 9900 1500 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1424/pcm.pdf" H 9900 1500 50  0001 C CNN
+F 4 "96" H -950 0   50  0001 C CNN "Cost100"
+F 5 "401-2016-1-ND" H -950 0   50  0001 C CNN "Digikey"
+F 6 "Y" H -950 0   50  0001 C CNN "Substitutable"
+	1    9900 1500
 	-1   0    0    1   
 $EndComp
-Connection ~ 9650 1550
+Connection ~ 8700 1550
 $Comp
 L power:+3.3V #PWR021
 U 1 1 5C40FB8F
-P 11050 1500
-F 0 "#PWR021" H 11050 1350 50  0001 C CNN
-F 1 "+3.3V" H 11065 1673 50  0000 C CNN
-F 2 "" H 11050 1500 50  0001 C CNN
-F 3 "" H 11050 1500 50  0001 C CNN
-	1    11050 1500
+P 10100 1500
+F 0 "#PWR021" H 10100 1350 50  0001 C CNN
+F 1 "+3.3V" H 10115 1673 50  0000 C CNN
+F 2 "" H 10100 1500 50  0001 C CNN
+F 3 "" H 10100 1500 50  0001 C CNN
+	1    10100 1500
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	11200 500  11200 2450
-Text Notes 9450 600  0    50   ~ 0
+Text Notes 8500 600  0    50   ~ 0
 Power Circuit
 Wire Notes Line
-	9400 650  10000 650 
+	8450 650  9050 650 
 Wire Notes Line
-	10000 650  10000 500 
+	9050 650  9050 500 
 Text GLabel 7200 3700 0    50   Input ~ 0
 SW2
 Text GLabel 7200 6000 0    50   Input ~ 0
@@ -794,18 +792,18 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR09
 U 1 1 5C3BE999
-P 10050 950
-F 0 "#PWR09" H 10050 800 50  0001 C CNN
-F 1 "+5V" H 10065 1123 50  0000 C CNN
-F 2 "" H 10050 950 50  0001 C CNN
-F 3 "" H 10050 950 50  0001 C CNN
-	1    10050 950 
+P 9100 950
+F 0 "#PWR09" H 9100 800 50  0001 C CNN
+F 1 "+5V" H 9115 1123 50  0000 C CNN
+F 2 "" H 9100 950 50  0001 C CNN
+F 3 "" H 9100 950 50  0001 C CNN
+	1    9100 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 950  10050 950 
+	9000 950  9100 950 
 Wire Wire Line
-	10350 1450 10350 1550
+	9400 1450 9400 1550
 Text Notes 8100 2600 0    50   ~ 0
 Edge Connector
 Wire Notes Line
@@ -856,24 +854,14 @@ Wire Wire Line
 	3900 1300 3900 1350
 Wire Wire Line
 	3900 1650 4000 1650
-Wire Notes Line
-	9400 500  11200 500 
-Wire Notes Line
-	11200 2450 9400 2450
-Wire Notes Line
-	3700 500  9350 500 
-Wire Notes Line
-	3700 2450 9350 2450
 Wire Wire Line
 	4950 1350 4950 900 
 Wire Wire Line
 	5600 1350 5600 900 
 Wire Notes Line
-	9350 500  9350 2450
-Wire Notes Line
-	9400 2450 9400 500 
+	8450 2450 8450 500 
 Wire Wire Line
-	10650 1150 10650 1400
+	9700 1150 9700 1400
 $Comp
 L Swadge_Parts:OLED_CONNECTOR U3
 U 1 1 5C3C7BBF
@@ -1137,10 +1125,10 @@ Wire Wire Line
 Wire Wire Line
 	4950 3450 4300 3450
 Connection ~ 4300 3450
-Connection ~ 9550 1550
-Connection ~ 10050 950 
+Connection ~ 8600 1550
+Connection ~ 9100 950 
 Wire Wire Line
-	10050 950  10050 1150
+	9100 950  9100 1150
 $Comp
 L Swadge_Parts:4-1437565-2 SW3
 U 1 1 5C53358A
@@ -1293,42 +1281,42 @@ Wire Wire Line
 $Comp
 L Swadge_Parts:Battery BT2
 U 1 1 5C4A23EF
-P 10450 2000
-F 0 "BT2" V 10205 2000 50  0000 C CNN
-F 1 "Battery" V 10296 2000 50  0000 C CNN
-F 2 "Swadge_Parts:2460" V 10450 2060 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 10450 2060 50  0001 C CNN
-F 4 "116" H 0   0   50  0001 C CNN "Cost100"
-F 5 "36-2460-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    10450 2000
+P 9500 2000
+F 0 "BT2" V 9255 2000 50  0000 C CNN
+F 1 "Battery" V 9346 2000 50  0000 C CNN
+F 2 "Swadge_Parts:2460" V 9500 2060 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 9500 2060 50  0001 C CNN
+F 4 "116" H -950 0   50  0001 C CNN "Cost100"
+F 5 "36-2460-ND" H -950 0   50  0001 C CNN "Digikey"
+F 6 "Y" H -950 0   50  0001 C CNN "Substitutable"
+	1    9500 2000
 	0    1    1    0   
 $EndComp
 $Comp
 L Swadge_Parts:Battery BT1
 U 1 1 5C4A255C
-P 10000 2000
-F 0 "BT1" V 9755 2000 50  0000 C CNN
-F 1 "Battery" V 9846 2000 50  0000 C CNN
-F 2 "Swadge_Parts:2460" V 10000 2060 50  0001 C CNN
-F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 10000 2060 50  0001 C CNN
-F 4 "116" H 0   0   50  0001 C CNN "Cost100"
-F 5 "36-2460-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    10000 2000
+P 9050 2000
+F 0 "BT1" V 8805 2000 50  0000 C CNN
+F 1 "Battery" V 8896 2000 50  0000 C CNN
+F 2 "Swadge_Parts:2460" V 9050 2060 50  0001 C CNN
+F 3 "http://www.keyelco.com/product-pdf.cfm?p=1025" V 9050 2060 50  0001 C CNN
+F 4 "116" H -950 0   50  0001 C CNN "Cost100"
+F 5 "36-2460-ND" H -950 0   50  0001 C CNN "Digikey"
+F 6 "Y" H -950 0   50  0001 C CNN "Substitutable"
+	1    9050 2000
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9650 1550 9800 1550
+	8700 1550 8850 1550
 Wire Wire Line
-	10650 1600 10650 2000
+	9700 1600 9700 2000
 Wire Wire Line
-	10250 2000 10200 2000
+	9300 2000 9250 2000
 Wire Wire Line
-	9800 2000 9800 1550
-Connection ~ 9800 1550
+	8850 2000 8850 1550
+Connection ~ 8850 1550
 Wire Wire Line
-	9800 1550 10350 1550
+	8850 1550 9400 1550
 Text Notes 9800 3850 0    50   ~ 0
 PCB must be 1.6mm\nthick for PCIe
 Text Notes 9800 3550 0    50   ~ 0
@@ -1706,8 +1694,6 @@ Wire Wire Line
 	8300 2950 8650 2950
 NoConn ~ 8650 3750
 NoConn ~ 8650 3850
-NoConn ~ 8650 3950
-NoConn ~ 9050 3950
 NoConn ~ 9050 3850
 NoConn ~ 9050 3750
 Wire Wire Line
@@ -1889,7 +1875,6 @@ Wire Notes Line
 	10700 3450 10700 4750
 Wire Notes Line
 	8050 4750 8050 2500
-NoConn ~ 7900 1650
 Connection ~ 5600 900 
 Wire Wire Line
 	5600 900  5750 900 
@@ -1971,28 +1956,28 @@ SW1
 Text GLabel 9100 3550 2    50   Input ~ 0
 SW1
 Wire Wire Line
-	10700 1150 10800 1150
+	9750 1150 9850 1150
 Wire Wire Line
-	10800 1150 10900 1150
-Connection ~ 10800 1150
+	9850 1150 9950 1150
+Connection ~ 9850 1150
 Wire Wire Line
-	10900 1150 11000 1150
-Connection ~ 10900 1150
+	9950 1150 10050 1150
+Connection ~ 9950 1150
 $Comp
 L power:GND #PWR0102
 U 1 1 5ED69729
-P 11000 900
-F 0 "#PWR0102" H 11000 650 50  0001 C CNN
-F 1 "GND" H 11005 727 50  0000 C CNN
-F 2 "" H 11000 900 50  0001 C CNN
-F 3 "" H 11000 900 50  0001 C CNN
-	1    11000 900 
+P 10050 900
+F 0 "#PWR0102" H 10050 650 50  0001 C CNN
+F 1 "GND" H 10055 727 50  0000 C CNN
+F 2 "" H 10050 900 50  0001 C CNN
+F 3 "" H 10050 900 50  0001 C CNN
+	1    10050 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10900 1150 10900 900 
+	9950 1150 9950 900 
 Wire Wire Line
-	10900 900  11000 900 
+	9950 900  10050 900 
 Wire Wire Line
 	4950 5450 4950 5550
 Wire Wire Line
@@ -2029,4 +2014,66 @@ Wire Wire Line
 Connection ~ 4950 5550
 Wire Wire Line
 	4950 5550 4950 5650
+Text GLabel 7900 1650 2    50   Input ~ 0
+LED_OUT
+Text GLabel 9100 3950 2    50   Input ~ 0
+LED_OUT
+Text GLabel 8600 3950 0    50   Input ~ 0
+LED_OUT
+Wire Wire Line
+	8600 3950 8650 3950
+Wire Wire Line
+	9100 3950 9050 3950
+Wire Notes Line
+	8400 500  8400 2450
+Wire Notes Line
+	3700 500  8400 500 
+Wire Notes Line
+	3700 2450 8400 2450
+Wire Notes Line
+	11150 500  11150 2450
+Wire Notes Line
+	8450 500  11150 500 
+Wire Notes Line
+	8450 2450 11150 2450
+$Comp
+L Swadge_Parts:C C3
+U 1 1 5F08022B
+P 10650 1350
+F 0 "C3" H 10765 1396 50  0000 L CNN
+F 1 "1u" H 10765 1305 50  0000 L CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 10688 1200 50  0001 C CNN
+F 3 "" H 10650 1350 50  0001 C CNN
+F 4 "10" H 3600 300 50  0001 C CNN "Cost100"
+F 5 "1276-1036-1-ND" H 3600 300 50  0001 C CNN "Digikey"
+F 6 "Y" H 3600 300 50  0001 C CNN "Substitutable"
+	1    10650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5F080DA5
+P 10650 1150
+F 0 "#PWR0104" H 10650 1000 50  0001 C CNN
+F 1 "+5V" H 10665 1323 50  0000 C CNN
+F 2 "" H 10650 1150 50  0001 C CNN
+F 3 "" H 10650 1150 50  0001 C CNN
+	1    10650 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F08178C
+P 10650 1550
+F 0 "#PWR0105" H 10650 1300 50  0001 C CNN
+F 1 "GND" H 10655 1377 50  0000 C CNN
+F 2 "" H 10650 1550 50  0001 C CNN
+F 3 "" H 10650 1550 50  0001 C CNN
+	1    10650 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 1150 10650 1200
+Wire Wire Line
+	10650 1500 10650 1550
 $EndSCHEMATC
