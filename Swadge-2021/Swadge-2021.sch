@@ -1540,8 +1540,6 @@ Text GLabel 9100 3150 2    50   Input ~ 0
 SDA
 Text GLabel 9100 3050 2    50   Input ~ 0
 SCL
-Text GLabel 9100 3550 2    50   Input ~ 0
-AUD_PWR
 Text GLabel 9100 3450 2    50   Input ~ 0
 SW3
 Text GLabel 9100 3350 2    50   Input ~ 0
@@ -1578,22 +1576,6 @@ F 1 "+5V" H 9415 4823 50  0000 C CNN
 F 2 "" H 9400 4650 50  0001 C CNN
 F 3 "" H 9400 4650 50  0001 C CNN
 	1    9400 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 3350 2950 3200
-$Comp
-L Swadge_Parts:ESP-13-WROOM-02D U4
-U 1 1 5CD8DDB4
-P 2000 3650
-F 0 "U4" H 1975 4415 50  0000 C CNN
-F 1 "ESP-13-WROOM-02D" H 1975 4324 50  0000 C CNN
-F 2 "Swadge_Parts:ESP-13-WROOM-02" H 1900 3650 50  0001 C CNN
-F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf" H 1900 3650 50  0001 C CNN
-F 4 "1904-1021-1-ND" H 2000 3650 50  0001 C CNN "Digikey"
-F 5 "270" H 2000 3650 50  0001 C CNN "Cost100"
-F 6 "Y" H 2000 3650 50  0001 C CNN "Substitutable"
-	1    2000 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1647,8 +1629,6 @@ Text GLabel 8600 3350 0    50   Input ~ 0
 SW2
 Text GLabel 8600 3450 0    50   Input ~ 0
 SW3
-Text GLabel 8600 3550 0    50   Input ~ 0
-AUD_PWR
 $Comp
 L power:+3.3V #PWR043
 U 1 1 5CCD0516
@@ -1830,8 +1810,6 @@ Wire Wire Line
 Connection ~ 1300 2700
 Connection ~ 1000 2700
 Wire Wire Line
-	1000 2700 1000 3350
-Wire Wire Line
 	1500 3000 1300 3000
 $Comp
 L power:GND #PWR037
@@ -1911,8 +1889,6 @@ Wire Notes Line
 	10700 3450 10700 4750
 Wire Notes Line
 	8050 4750 8050 2500
-Wire Wire Line
-	4950 5450 4950 5650
 NoConn ~ 7900 1650
 Connection ~ 5600 900 
 Wire Wire Line
@@ -1990,4 +1966,67 @@ Connection ~ 7750 3150
 Wire Wire Line
 	7750 3150 7750 3200
 Connection ~ 7250 2950
+Text GLabel 8600 3550 0    50   Input ~ 0
+SW1
+Text GLabel 9100 3550 2    50   Input ~ 0
+SW1
+Wire Wire Line
+	10700 1150 10800 1150
+Wire Wire Line
+	10800 1150 10900 1150
+Connection ~ 10800 1150
+Wire Wire Line
+	10900 1150 11000 1150
+Connection ~ 10900 1150
+$Comp
+L power:GND #PWR0102
+U 1 1 5ED69729
+P 11000 900
+F 0 "#PWR0102" H 11000 650 50  0001 C CNN
+F 1 "GND" H 11005 727 50  0000 C CNN
+F 2 "" H 11000 900 50  0001 C CNN
+F 3 "" H 11000 900 50  0001 C CNN
+	1    11000 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 1150 10900 900 
+Wire Wire Line
+	10900 900  11000 900 
+Wire Wire Line
+	4950 5450 4950 5550
+Wire Wire Line
+	1000 2700 1000 3350
+Wire Wire Line
+	2950 3350 2950 3200
+$Comp
+L Swadge_Parts:ESP-13-WROOM-02D U4
+U 1 1 5CD8DDB4
+P 2000 3650
+F 0 "U4" H 1975 4415 50  0000 C CNN
+F 1 "ESP-13-WROOM-02D" H 1975 4324 50  0000 C CNN
+F 2 "Swadge_Parts:ESP-13-WROOM-02" H 1900 3650 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp-wroom-02d_esp-wroom-02u_datasheet_en.pdf" H 1900 3650 50  0001 C CNN
+F 4 "1904-1021-1-ND" H 2000 3650 50  0001 C CNN "Digikey"
+F 5 "270" H 2000 3650 50  0001 C CNN "Cost100"
+F 6 "Y" H 2000 3650 50  0001 C CNN "Substitutable"
+	1    2000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EEA760A
+P 6800 2700
+F 0 "#PWR0103" H 6800 2450 50  0001 C CNN
+F 1 "GND" H 6805 2527 50  0000 C CNN
+F 2 "" H 6800 2700 50  0001 C CNN
+F 3 "" H 6800 2700 50  0001 C CNN
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2650 6800 2700
+Connection ~ 4950 5550
+Wire Wire Line
+	4950 5550 4950 5650
 $EndSCHEMATC
