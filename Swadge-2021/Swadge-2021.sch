@@ -2076,4 +2076,15 @@ Wire Wire Line
 	10650 1150 10650 1200
 Wire Wire Line
 	10650 1500 10650 1550
+$Comp
+L Swadge_Parts:blade-plate U6
+U 1 1 5EBB50F8
+P 6250 5750
+F 0 "U6" H 6275 5796 50  0000 L CNN
+F 1 "blade-plate" H 6275 5705 50  0000 L CNN
+F 2 "Swadge_Parts:blade-plate" H 6250 5750 50  0001 C CNN
+F 3 "" H 6250 5750 50  0001 C CNN
+	1    6250 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
