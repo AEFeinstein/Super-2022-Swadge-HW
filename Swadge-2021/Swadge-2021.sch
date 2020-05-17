@@ -1150,23 +1150,6 @@ Wire Wire Line
 	7200 4450 7250 4450
 Wire Wire Line
 	7250 4450 7250 4650
-$Comp
-L Swadge_Parts:4-1437565-2 SW5
-U 1 1 5C5720FB
-P 7500 6100
-F 0 "SW5" H 7500 6415 50  0000 C CNN
-F 1 "4-1437565-2" H 7500 6324 50  0000 C CNN
-F 2 "Swadge_Parts:SW_4-1437565-2" H 7500 6100 50  0001 L BNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7500 6100 50  0001 L BNN
-F 4 "34" H -50 450 50  0001 C CNN "Cost100"
-F 5 "450-1759-1-ND" H -50 450 50  0001 C CNN "Digikey"
-F 6 "Y" H -50 450 50  0001 C CNN "Substitutable"
-F 7 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" H -50 450 50  0001 C CNN "Description"
-F 8 "FSM4JSMATR" H -50 450 50  0001 C CNN "MPN"
-F 9 "TE Connectivity" H -50 450 50  0001 C CNN "Manufacturer"
-	1    7500 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7200 6000 7250 6000
 Wire Wire Line
@@ -1910,7 +1893,6 @@ REST
 Connection ~ 7250 3700
 Connection ~ 7250 4450
 Connection ~ 7250 5200
-Connection ~ 7250 6000
 Text GLabel 7200 2950 0    50   Input ~ 0
 SW1
 $Comp
@@ -2079,12 +2061,27 @@ Wire Wire Line
 $Comp
 L Swadge_Parts:blade-plate U6
 U 1 1 5EBB50F8
-P 6250 5750
-F 0 "U6" H 6275 5796 50  0000 L CNN
-F 1 "blade-plate" H 6275 5705 50  0000 L CNN
-F 2 "Swadge_Parts:blade-plate" H 6250 5750 50  0001 C CNN
-F 3 "" H 6250 5750 50  0001 C CNN
-	1    6250 5750
+P 5950 5750
+F 0 "U6" H 5975 5796 50  0000 L CNN
+F 1 "blade-plate" H 5975 5705 50  0000 L CNN
+F 2 "Swadge_Parts:blade-plate-no-teeth" H 5950 5750 50  0001 C CNN
+F 3 "" H 5950 5750 50  0001 C CNN
+	1    5950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:B3FS-4002P SW5
+U 1 1 5EC376FB
+P 8200 5700
+F 0 "SW5" H 8675 5925 50  0000 C CNN
+F 1 "B3FS-4002P" H 8675 5834 50  0000 C CNN
+F 2 "Swadge_Parts:B3FS4002P" H 8650 6150 50  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 9000 5700 50  0001 L CNN
+F 4 "SW1278CT-ND" H 8700 6300 50  0001 C CNN "Digikey"
+F 5 "76" H 8500 6150 50  0001 C CNN "Cost100"
+F 6 "Y" H 8350 6200 50  0001 C CNN "Substitutable"
+F 7 "Use standard 12mmx12mm SMT box tactile buttons with flat top. Similar to TL3300DF160Q." H 8200 5700 50  0001 C CNN "Notes"
+	1    8200 5700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
