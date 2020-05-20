@@ -2048,7 +2048,7 @@ U 1 1 5EBB50F8
 P 5950 5750
 F 0 "U6" H 5975 5796 50  0000 L CNN
 F 1 "blade-plate" H 5975 5705 50  0000 L CNN
-F 2 "Swadge_Parts:blade-plate-small-no-teeth" H 5950 5750 50  0001 C CNN
+F 2 "Swadge_Parts:blade-plate-med-no-teeth" H 5950 5750 50  0001 C CNN
 F 3 "" H 5950 5750 50  0001 C CNN
 	1    5950 5750
 	1    0    0    -1  
