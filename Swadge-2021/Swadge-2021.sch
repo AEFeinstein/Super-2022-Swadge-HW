@@ -759,7 +759,7 @@ Wire Notes Line
 	9150 650  9150 500 
 Text GLabel 7300 3700 0    50   Input ~ 0
 SW2
-Text GLabel 7300 6050 0    50   Input ~ 0
+Text GLabel 7300 2950 0    50   Input ~ 0
 SW5
 Text GLabel 7300 5200 0    50   Input ~ 0
 SW4
@@ -1881,13 +1881,13 @@ REST
 Connection ~ 7350 3700
 Connection ~ 7350 4450
 Connection ~ 7350 5200
-Text GLabel 7300 2950 0    50   Input ~ 0
+Text GLabel 7300 6050 0    50   Input ~ 0
 SW1
 $Comp
-L Swadge_Parts:4-1437565-2 SW1
+L Swadge_Parts:4-1437565-2 SW5
 U 1 1 5EC35865
 P 7600 3050
-F 0 "SW1" H 7600 3365 50  0000 C CNN
+F 0 "SW5" H 7600 3365 50  0000 C CNN
 F 1 "4-1437565-2" H 7600 3274 50  0000 C CNN
 F 2 "Swadge_Parts:SW_4-1437565-2" H 7600 3050 50  0001 L BNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2-1437565-7&DocType=Customer+Drawing&DocLang=English" H 7600 3050 50  0001 L BNN
@@ -2059,10 +2059,10 @@ Connection ~ 7350 6050
 Wire Wire Line
 	7350 6050 7350 6150
 $Comp
-L Swadge_Parts:B3FS-4002P SW5
+L Swadge_Parts:B3FS-4002P SW1
 U 1 1 5EC376FB
 P 7350 6050
-F 0 "SW5" H 7825 6275 50  0000 C CNN
+F 0 "SW1" H 7825 6275 50  0000 C CNN
 F 1 "B3FS-4002P" H 7825 6184 50  0000 C CNN
 F 2 "Swadge_Parts:B3FS4002P" H 7800 6500 50  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs_4.pdf" H 8150 6050 50  0001 L CNN
