@@ -8,11 +8,10 @@ F0 "SW" -160 170 50 H V L BNN
 F1 "Swadge_Parts_4-1437565-2" -180 -240 50 H V L BNN
 F2 "Swadge_Parts:SW_4-1437565-2" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "Switch Tactile OFF _ON_ SPST Round Button Gull Wing 0.05A 24VDC 1VA 9.18N SMD T/R" 0 0 50 H I L BNN "Description"
-F5 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
-F6 "34" 0 0 10 H I C CNN "Cost100"
-F7 "Y" 0 0 10 H I C CNN "Substitutable"
-F8 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." -250 300 50 H I C CNN "Notes"
+F4 "450-1759-1-ND" 640 970 50 H I C CNN "Digikey"
+F5 "34" 0 0 10 H I C CNN "Cost100"
+F6 "Y" 0 0 10 H I C CNN "Substitutable"
+F7 "Use standard SMT box tactile buttons.  Similar to PTS645SM43SMTR92." -250 300 50 H I C CNN "Notes"
 $FPLIST
  Swadge_Parts:SW_4-1437565-2
 $ENDFPLIST
@@ -171,6 +170,19 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Swadge_Parts_Blade_Plating
+#
+DEF Swadge_Parts_Blade_Plating U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Swadge_Parts_Blade_Plating" 0 0 50 H V C CNN
+F2 "Swadge_Parts:edge-plate" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Y" 0 0 50 H I C CNN "nobom"
+F5 "n/a" 0 0 50 H I C CNN "Digikey"
+DRAW
+ENDDRAW
+ENDDEF
+#
 # Swadge_Parts_C
 #
 DEF Swadge_Parts_C C 0 10 N Y 1 F N
@@ -240,7 +252,7 @@ F3 "" 200 650 50 H I C CNN
 F4 "MCP6001UT-I/OTCT-ND" 0 900 50 H I C CNN "Digikey"
 F5 "7.73" 0 1000 50 H I C CNN "Cost100"
 F6 "Y" 0 1100 50 H I C CNN "Substitutable"
-F7 "https://lcsc.com/product-detail/Low-Power-OpAmps_Gainsil-GS321-TR_C157695.html" 150 800 50 H I C CNN "lcsc"
+F7 "LCSC alternative: https://lcsc.com/product-detail/Low-Power-OpAmps_Gainsil-GS321-TR_C157695.html" 0 0 50 H V C CNN "Notes"
 DRAW
 P 4 0 1 0 250 0 -250 350 -250 -350 250 0 f
 X IN+ 1 -350 100 100 R 50 50 1 1 I
@@ -347,6 +359,23 @@ X VBAT 6 -1000 900 100 R 40 40 1 1 I
 X NC 7 -1000 800 100 R 40 40 1 1 U
 X VSS 8 -1000 700 100 R 40 40 1 1 W
 X VDD 9 -1000 600 100 R 40 40 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Swadge_Parts_OLED_DISPLAY
+#
+DEF Swadge_Parts_OLED_DISPLAY U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Swadge_Parts_OLED_DISPLAY" 0 0 50 H V C CNN
+F2 "Swadge_Parts:NULL" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "https://www.buydisplay.com/download/manual/ER-OLED0.96-1_Series_Datasheet.pdf" 0 0 50 H I C CNN "Datasheet2"
+F5 "EastRising# ER-OLED0.96-1.1W" 0 0 50 H I C CNN "Digikey"
+F6 "352" 0 0 50 H I C CNN "Cost100"
+F7 "Y" 0 0 50 H I C CNN "Substitutable"
+F8 "Must be a single color; white. Must have SSD1306 driver. Must have bottom pins; same as connector. 0.5mm pitch; like the connector" 0 0 50 H I C CNN "Notes"
+DRAW
+S -300 200 300 -200 0 1 0 N
 ENDDRAW
 ENDDEF
 #
@@ -479,8 +508,11 @@ ENDDEF
 DEF Swadge_Parts_blade-plate U 0 40 Y Y 1 F N
 F0 "U" 0 100 50 H V C CNN
 F1 "Swadge_Parts_blade-plate" 0 0 50 H V C CNN
-F2 "Swadge_Parts:blade-plate" 0 0 50 H I C CNN
+F2 "Swadge_Parts:blade-plate-med-no-teeth" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+F4 "952-3598-ND" 0 0 50 H I C CNN "Digikey"
+F5 "Y" 0 0 50 H I C CNN "Substitutable"
+F6 "Use Blade Plate PCB, one two 2x1 male pin headers with 1.27mm spacing, and two battery clip legs for assembly. Must attach OLED display and battery clips before soldering Blade Plate." 0 0 50 H I C CNN "Notes"
 DRAW
 ENDDRAW
 ENDDEF

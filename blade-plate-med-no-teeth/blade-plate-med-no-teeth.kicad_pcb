@@ -55,8 +55,8 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 1.524 1.524)
-    (pad_drill 0.762)
+    (pad_size 1.53 1.53)
+    (pad_drill 1.02)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -100,7 +100,7 @@
     (uvia_drill 0.1)
   )
 
-  (module Swadge_Parts:blade-plate-med-no-teeth (layer F.Cu) (tedit 5EC4A423) (tstamp 5EC4FA2A)
+  (module Swadge_Parts:blade-plate-med-no-teeth (layer F.Cu) (tedit 5EC980E6) (tstamp 5EC4FA2A)
     (at 0 0)
     (fp_text reference Ref** (at -5.08 -24.13) (layer F.SilkS) hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -203,8 +203,18 @@
       (xy -0.015932 -22.515297) (xy 0.476893 -22.509641)) (layer F.Fab) (width 0.01))
     (pad 2 thru_hole rect (at -0.635 -19.45 90) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at 0.635 -19.45 180) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
-    (pad 1 thru_hole circle (at 8.45 18.56 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-    (pad 1 thru_hole circle (at -9.71 18.56 180) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at 8.45 18.56 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask))
+    (pad 1 thru_hole circle (at -9.71 18.56 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask))
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/blade-plate-med-no-teeth.step
+      (offset (xyz 0 0 2.6))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/../Swadge-Parts/package3d/PinHeader_1x02_P1.27mm_Vertical.step
+      (offset (xyz 0.635 19.45 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module LOGO (layer F.Cu) (tedit 0) (tstamp 0)
