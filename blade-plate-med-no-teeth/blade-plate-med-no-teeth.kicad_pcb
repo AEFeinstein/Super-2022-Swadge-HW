@@ -61,8 +61,8 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
-      (usegerberextensions false)
+      (layerselection 0x01000_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
@@ -84,9 +84,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers/"))
+      (outputdirectory "mfg/"))
   )
 
   (net 0 "")
@@ -205,16 +205,6 @@
     (pad 1 thru_hole circle (at 0.635 -19.45 180) (size 1 1) (drill 0.65) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at 8.45 18.56 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at -9.71 18.56 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/../Swadge-Parts/package3d/blade-plate-med-no-teeth.step
-      (offset (xyz 0 0 2.6))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KIPRJMOD}/../Swadge-Parts/package3d/PinHeader_1x02_P1.27mm_Vertical.step
-      (offset (xyz 0.635 19.45 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
-    )
   )
 
   (module LOGO (layer F.Cu) (tedit 0) (tstamp 0)
