@@ -14,11 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Swadge_Parts:R_US R7
+L Swadge_Parts:R_US R1
 U 1 1 5C3A222A
 P 3050 650
-F 0 "R7" V 3150 650 50  0000 C CNN
-F 1 "1K" V 2936 650 50  0000 C CNN
+F 0 "R1" V 3150 650 50  0000 C CNN
+F 1 "470" V 2936 650 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 3090 640 50  0001 C CNN
 F 3 "~" H 3050 650 50  0001 C CNN
 F 4 "10" H 100 -50 50  0001 C CNN "Cost100"
@@ -27,13 +27,13 @@ F 6 "Y" H 100 -50 50  0001 C CNN "Substitutable"
 	1    3050 650 
 	0    1    1    0   
 $EndComp
-Text GLabel 3250 1900 2    50   Input ~ 0
+Text GLabel 3250 1950 2    50   Input ~ 0
 ADC_PIN
 $Comp
-L power:GND #PWR015
+L power:GND #PWR016
 U 1 1 5C3A243F
 P 2950 1500
-F 0 "#PWR015" H 2950 1250 50  0001 C CNN
+F 0 "#PWR016" H 2950 1250 50  0001 C CNN
 F 1 "GND" H 2955 1327 50  0000 C CNN
 F 2 "" H 2950 1500 50  0001 C CNN
 F 3 "" H 2950 1500 50  0001 C CNN
@@ -41,76 +41,58 @@ F 3 "" H 2950 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:R_US R6
+L Swadge_Parts:R_US R7
 U 1 1 5C3A270F
-P 2500 1400
-F 0 "R6" V 2600 1400 50  0000 C CNN
-F 1 "220K" V 2386 1400 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 2540 1390 50  0001 C CNN
-F 3 "~" H 2500 1400 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    2500 1400
-	-1   0    0    1   
+P 2850 1950
+F 0 "R7" V 2750 1850 50  0000 C CNN
+F 1 "220K" V 2750 2100 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 2890 1940 50  0001 C CNN
+F 3 "~" H 2850 1950 50  0001 C CNN
+F 4 "10" H 350 550 50  0001 C CNN "Cost100"
+F 5 "n/a" H 350 550 50  0001 C CNN "Digikey"
+F 6 "Y" H 350 550 50  0001 C CNN "Substitutable"
+	1    2850 1950
+	0    1    1    0   
 $EndComp
-$Comp
-L Swadge_Parts:R_US R1
-U 1 1 5C3A2ABB
-P 1500 1100
-F 0 "R1" V 1600 1100 50  0000 C CNN
-F 1 "47K" V 1386 1100 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 1540 1090 50  0001 C CNN
-F 3 "~" H 1500 1100 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1500 1100
-	-1   0    0    1   
-$EndComp
-Connection ~ 1500 1250
 $Comp
 L Swadge_Parts:R_US R2
+U 1 1 5C3A2ABB
+P 1750 900
+F 0 "R2" V 1850 900 50  0000 C CNN
+F 1 "47K" V 1636 900 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1790 890 50  0001 C CNN
+F 3 "~" H 1750 900 50  0001 C CNN
+F 4 "10" H 250 -200 50  0001 C CNN "Cost100"
+F 5 "n/a" H 250 -200 50  0001 C CNN "Digikey"
+F 6 "Y" H 250 -200 50  0001 C CNN "Substitutable"
+	1    1750 900 
+	-1   0    0    1   
+$EndComp
+Connection ~ 1750 1050
+$Comp
+L Swadge_Parts:R_US R3
 U 1 1 5C3A2B0A
-P 1500 1400
-F 0 "R2" V 1600 1400 50  0000 C CNN
-F 1 "10K" V 1386 1400 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 1540 1390 50  0001 C CNN
-F 3 "~" H 1500 1400 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1500 1400
+P 1750 1200
+F 0 "R3" V 1850 1200 50  0000 C CNN
+F 1 "10K" V 1636 1200 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1790 1190 50  0001 C CNN
+F 3 "~" H 1750 1200 50  0001 C CNN
+F 4 "10" H 250 -200 50  0001 C CNN "Cost100"
+F 5 "n/a" H 250 -200 50  0001 C CNN "Digikey"
+F 6 "Y" H 250 -200 50  0001 C CNN "Substitutable"
+	1    1750 1200
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR017
+L power:GND #PWR015
 U 1 1 5C3A2B32
-P 1500 1550
-F 0 "#PWR017" H 1500 1300 50  0001 C CNN
-F 1 "GND" H 1505 1377 50  0000 C CNN
-F 2 "" H 1500 1550 50  0001 C CNN
-F 3 "" H 1500 1550 50  0001 C CNN
-	1    1500 1550
+P 1750 1350
+F 0 "#PWR015" H 1750 1100 50  0001 C CNN
+F 1 "GND" H 1755 1177 50  0000 C CNN
+F 2 "" H 1750 1350 50  0001 C CNN
+F 3 "" H 1750 1350 50  0001 C CNN
+	1    1750 1350
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 1250 1700 1050
-Wire Wire Line
-	1500 1250 1700 1250
-$Comp
-L Swadge_Parts:R_US R3
-U 1 1 5C3A27A1
-P 1850 1250
-F 0 "R3" V 1950 1250 50  0000 C CNN
-F 1 "47K" V 1736 1250 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 1890 1240 50  0001 C CNN
-F 3 "~" H 1850 1250 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1850 1250
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Swadge_Parts:R_US R4
@@ -127,10 +109,10 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	0    1    1    0   
 $EndComp
 $Comp
-L Swadge_Parts:C C2
+L Swadge_Parts:C C1
 U 1 1 5C3A35DB
 P 1150 1000
-F 0 "C2" H 1265 1046 50  0000 L CNN
+F 0 "C1" H 1265 1046 50  0000 L CNN
 F 1 "0.22u" H 1265 955 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 1188 850 50  0001 C CNN
 F 3 "~" H 1150 1000 50  0001 C CNN
@@ -141,10 +123,10 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Swadge_Parts:C C1
+L Swadge_Parts:C C5
 U 1 1 5C3A398E
 P 800 1100
-F 0 "C1" H 915 1146 50  0000 L CNN
+F 0 "C5" H 915 1146 50  0000 L CNN
 F 1 "22u" H 915 1055 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 838 950 50  0001 C CNN
 F 3 "~" H 800 1100 50  0001 C CNN
@@ -176,13 +158,11 @@ F 3 "" H 800 1300 50  0001 C CNN
 	1    800  1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 1050 2600 1050
 $Comp
-L Swadge_Parts:C C3
+L Swadge_Parts:C C7
 U 1 1 5C3A466B
 P 2050 1550
-F 0 "C3" H 2165 1596 50  0000 L CNN
+F 0 "C7" H 2165 1596 50  0000 L CNN
 F 1 "0.22u" H 2165 1505 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 2088 1400 50  0001 C CNN
 F 3 "~" H 2050 1550 50  0001 C CNN
@@ -193,59 +173,50 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 1250 2050 1250
-Wire Wire Line
 	2050 1400 2050 1250
-Connection ~ 2050 1250
 Wire Wire Line
 	2050 1250 2100 1250
 $Comp
 L Swadge_Parts:Microphone MK1
 U 1 1 5C3A4BBD
-P 2150 2000
-F 0 "MK1" H 2280 2046 50  0000 L CNN
-F 1 "Microphone" H 2280 1955 50  0000 L CNN
-F 2 "Swadge_Parts:CMA-4544PF-W" V 2150 2100 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897" V 2150 2100 50  0001 C CNN
-F 4 "70" H 0   0   50  0001 C CNN "Cost100"
-F 5 "102-1721-ND" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    2150 2000
+P 2050 2000
+F 0 "MK1" H 1750 1900 50  0000 L CNN
+F 1 "Microphone" H 1550 1800 50  0000 L CNN
+F 2 "Swadge_Parts:CMA-4544PF-W" V 2050 2100 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/pui-audio-inc/POM-2738P-R/668-1158-ND/1464897" V 2050 2100 50  0001 C CNN
+F 4 "70" H -100 0   50  0001 C CNN "Cost100"
+F 5 "102-1721-ND" H -100 0   50  0001 C CNN "Digikey"
+F 6 "Y" H -100 0   50  0001 C CNN "Substitutable"
+	1    2050 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:R_US R5
+L Swadge_Parts:R_US R6
 U 1 1 5C3A4C3B
-P 1900 1800
-F 0 "R5" V 2000 1800 50  0000 C CNN
-F 1 "10K" V 1786 1800 50  0000 C CNN
-F 2 "Swadge_Parts:R_0603_1608Metric" V 1940 1790 50  0001 C CNN
-F 3 "~" H 1900 1800 50  0001 C CNN
-F 4 "10" H 0   0   50  0001 C CNN "Cost100"
-F 5 "n/a" H 0   0   50  0001 C CNN "Digikey"
-F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
-	1    1900 1800
+P 1750 1800
+F 0 "R6" V 1850 1800 50  0000 C CNN
+F 1 "10K" V 1636 1800 50  0000 C CNN
+F 2 "Swadge_Parts:R_0603_1608Metric" V 1790 1790 50  0001 C CNN
+F 3 "~" H 1750 1800 50  0001 C CNN
+F 4 "10" H -150 0   50  0001 C CNN "Cost100"
+F 5 "n/a" H -150 0   50  0001 C CNN "Digikey"
+F 6 "Y" H -150 0   50  0001 C CNN "Substitutable"
+	1    1750 1800
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1750 1800 1350 1800
-Wire Wire Line
-	2050 1800 2050 1700
-Wire Wire Line
-	2150 1800 2050 1800
+	1600 1800 1350 1800
 $Comp
 L power:GND #PWR026
 U 1 1 5C3A5213
-P 2200 2200
-F 0 "#PWR026" H 2200 1950 50  0001 C CNN
-F 1 "GND" H 2205 2027 50  0000 C CNN
-F 2 "" H 2200 2200 50  0001 C CNN
-F 3 "" H 2200 2200 50  0001 C CNN
-	1    2200 2200
+P 2050 2200
+F 0 "#PWR026" H 2050 1950 50  0001 C CNN
+F 1 "GND" H 2055 2027 50  0000 C CNN
+F 2 "" H 2050 2200 50  0001 C CNN
+F 3 "" H 2050 2200 50  0001 C CNN
+	1    2050 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 1550 2500 1750
 $Comp
 L Swadge_Parts:WS2812B D1
 U 1 1 5C3A6CB0
@@ -273,10 +244,10 @@ F 3 "" H 4300 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:C C4
+L Swadge_Parts:C C2
 U 1 1 5C3A6F66
 P 4450 1050
-F 0 "C4" H 4565 1096 50  0000 L CNN
+F 0 "C2" H 4565 1096 50  0000 L CNN
 F 1 "1u" H 4565 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4488 900 50  0001 C CNN
 F 3 "~" H 4450 1050 50  0001 C CNN
@@ -453,10 +424,10 @@ F 3 "" H 6900 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:C C6
+L Swadge_Parts:C C4
 U 1 1 5C3A9728
 P 7050 1050
-F 0 "C6" H 7165 1096 50  0000 L CNN
+F 0 "C4" H 7165 1096 50  0000 L CNN
 F 1 "1u" H 7165 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 7088 900 50  0001 C CNN
 F 3 "~" H 7050 1050 50  0001 C CNN
@@ -545,10 +516,10 @@ Microphone Circuit
 Text Notes 3750 600  0    50   ~ 0
 LED Circuit
 $Comp
-L Swadge_Parts:R_US R8
+L Swadge_Parts:R_US R5
 U 1 1 5C3AEE0E
 P 3900 1500
-F 0 "R8" V 4000 1500 50  0000 C CNN
+F 0 "R5" V 4000 1500 50  0000 C CNN
 F 1 "70" V 3786 1500 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 3940 1490 50  0001 C CNN
 F 3 "~" H 3900 1500 50  0001 C CNN
@@ -563,10 +534,10 @@ Wire Notes Line
 Text Notes 550  2600 0    50   ~ 0
 ESP8266 Circuit
 $Comp
-L Swadge_Parts:R_US R10
+L Swadge_Parts:R_US R9
 U 1 1 5C3B6874
 P 1700 4950
-F 0 "R10" V 1800 4950 50  0000 C CNN
+F 0 "R9" V 1800 4950 50  0000 C CNN
 F 1 "10K" V 1586 4950 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 1740 4940 50  0001 C CNN
 F 3 "~" H 1700 4950 50  0001 C CNN
@@ -744,10 +715,10 @@ F 7 "Use SPDT slide switch. Similar to PCM12SMTR" H 0   0   50  0001 C CNN "Note
 $EndComp
 Connection ~ 8800 1550
 $Comp
-L power:+3.3V #PWR016
+L power:+3.3V #PWR017
 U 1 1 5C40FB8F
 P 10200 1500
-F 0 "#PWR016" H 10200 1350 50  0001 C CNN
+F 0 "#PWR017" H 10200 1350 50  0001 C CNN
 F 1 "+3.3V" H 10215 1673 50  0000 C CNN
 F 2 "" H 10200 1500 50  0001 C CNN
 F 3 "" H 10200 1500 50  0001 C CNN
@@ -785,13 +756,6 @@ Wire Notes Line
 	7000 2650 7400 2650
 Wire Notes Line
 	7400 2650 7400 2500
-Connection ~ 2050 1800
-Connection ~ 1700 1250
-Wire Wire Line
-	2400 1250 2500 1250
-Connection ~ 2500 1250
-Wire Wire Line
-	2500 1250 2600 1250
 $Comp
 L power:+5V #PWR08
 U 1 1 5C3BE999
@@ -817,8 +781,6 @@ Wire Wire Line
 	1150 1150 1150 1200
 Wire Wire Line
 	800  1250 800  1300
-Wire Wire Line
-	2150 2200 2200 2200
 Wire Wire Line
 	1500 4950 1550 4950
 Wire Wire Line
@@ -881,10 +843,10 @@ F 7 "Must have bottom contacts. same as the OLED" H 5950 4050 50  0001 C CNN "No
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:C C16
+L Swadge_Parts:C C17
 U 1 1 5C3D117F
 P 4650 5500
-F 0 "C16" H 4765 5546 50  0000 L CNN
+F 0 "C17" H 4765 5546 50  0000 L CNN
 F 1 "10u" H 4765 5455 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4688 5350 50  0001 C CNN
 F 3 "~" H 4650 5500 50  0001 C CNN
@@ -895,10 +857,10 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Swadge_Parts:C C15
+L Swadge_Parts:C C16
 U 1 1 5C3D163A
 P 4250 5400
-F 0 "C15" H 4365 5446 50  0000 L CNN
+F 0 "C16" H 4365 5446 50  0000 L CNN
 F 1 "2.2u" H 4365 5355 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4288 5250 50  0001 C CNN
 F 3 "~" H 4250 5400 50  0001 C CNN
@@ -945,10 +907,10 @@ Wire Wire Line
 Wire Wire Line
 	4950 5350 4650 5350
 $Comp
-L Swadge_Parts:R_US R13
+L Swadge_Parts:R_US R10
 U 1 1 5C5639B1
 P 4050 5150
-F 0 "R13" V 4150 5150 50  0000 C CNN
+F 0 "R10" V 4150 5150 50  0000 C CNN
 F 1 "390k" V 4100 5350 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 4090 5140 50  0001 C CNN
 F 3 "~" H 4050 5150 50  0001 C CNN
@@ -978,10 +940,10 @@ F 3 "" H 4950 5650 50  0001 C CNN
 $EndComp
 Connection ~ 4950 5650
 $Comp
-L Swadge_Parts:C C14
+L Swadge_Parts:C C15
 U 1 1 5C5EA1C9
 P 4150 3600
-F 0 "C14" H 3850 3650 50  0000 L CNN
+F 0 "C15" H 3850 3650 50  0000 L CNN
 F 1 "1u" H 3850 3550 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4188 3450 50  0001 C CNN
 F 3 "~" H 4150 3600 50  0001 C CNN
@@ -992,10 +954,10 @@ F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Swadge_Parts:C C13
+L Swadge_Parts:C C14
 U 1 1 5C5EA421
 P 4000 3300
-F 0 "C13" H 4115 3346 50  0000 L CNN
+F 0 "C14" H 4115 3346 50  0000 L CNN
 F 1 "1u" H 4115 3255 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4038 3150 50  0001 C CNN
 F 3 "~" H 4000 3300 50  0001 C CNN
@@ -1018,10 +980,10 @@ Connection ~ 4300 3150
 Wire Wire Line
 	4300 3450 4150 3450
 $Comp
-L Swadge_Parts:C C11
+L Swadge_Parts:C C9
 U 1 1 5C655AC1
 P 4450 2700
-F 0 "C11" H 4565 2746 50  0000 L CNN
+F 0 "C9" H 4565 2746 50  0000 L CNN
 F 1 "1u" H 4565 2655 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 4488 2550 50  0001 C CNN
 F 3 "~" H 4450 2700 50  0001 C CNN
@@ -1669,10 +1631,10 @@ Wire Notes Line
 Wire Notes Line
 	8550 2500 10200 2500
 $Comp
-L Swadge_Parts:C C9
+L Swadge_Parts:C C10
 U 1 1 5CFA55E8
 P 1300 2850
-F 0 "C9" H 1415 2896 50  0000 L CNN
+F 0 "C10" H 1415 2896 50  0000 L CNN
 F 1 "10u" H 1415 2805 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 1338 2700 50  0001 C CNN
 F 3 "~" H 1300 2850 50  0001 C CNN
@@ -1683,10 +1645,10 @@ F 6 "Y" H -3350 -2650 50  0001 C CNN "Substitutable"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Swadge_Parts:C C8
+L Swadge_Parts:C C13
 U 1 1 5CFA6839
 P 700 3150
-F 0 "C8" H 750 3250 50  0000 L CNN
+F 0 "C13" H 750 3250 50  0000 L CNN
 F 1 "0.1u" H 700 3050 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 738 3000 50  0001 C CNN
 F 3 "~" H 700 3150 50  0001 C CNN
@@ -1697,10 +1659,10 @@ F 6 "Y" H -4350 -3750 50  0001 C CNN "Substitutable"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Swadge_Parts:C C10
+L Swadge_Parts:C C11
 U 1 1 5CFA8140
 P 1500 2850
-F 0 "C10" H 1250 2900 50  0000 L CNN
+F 0 "C11" H 1250 2900 50  0000 L CNN
 F 1 "0.1u" H 1250 2800 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 1538 2700 50  0001 C CNN
 F 3 "~" H 1500 2850 50  0001 C CNN
@@ -1711,10 +1673,10 @@ F 6 "Y" H -3550 -4050 50  0001 C CNN "Substitutable"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Swadge_Parts:R_US R9
+L Swadge_Parts:R_US R8
 U 1 1 5CFA8647
 P 700 2850
-F 0 "R9" V 800 2850 50  0000 C CNN
+F 0 "R8" V 800 2850 50  0000 C CNN
 F 1 "10K" V 586 2850 50  0000 C CNN
 F 2 "Swadge_Parts:R_0603_1608Metric" V 740 2840 50  0001 C CNN
 F 3 "~" H 700 2850 50  0001 C CNN
@@ -1783,9 +1745,9 @@ Wire Wire Line
 	2950 850  2950 750 
 Wire Wire Line
 	2950 750  2900 750 
-Connection ~ 1500 750 
+Connection ~ 1750 750 
 Wire Wire Line
-	1500 750  1350 750 
+	1750 750  1350 750 
 Connection ~ 1350 750 
 Wire Wire Line
 	1350 750  1150 750 
@@ -1799,23 +1761,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 750  1350 1800
 Wire Wire Line
-	1500 750  1500 950 
-Wire Wire Line
 	2900 650  2900 750 
 Connection ~ 2900 750 
 Wire Wire Line
-	2900 750  1500 750 
-Wire Wire Line
-	3300 1150 3300 1750
-Wire Wire Line
-	2500 1750 3200 1750
-Wire Wire Line
-	3250 1900 3200 1900
-Wire Wire Line
-	3200 1900 3200 1750
-Connection ~ 3200 1750
-Wire Wire Line
-	3200 1750 3300 1750
+	2900 750  1750 750 
 $Comp
 L Swadge_Parts:GS321-TR U1
 U 1 1 5CDBBD9E
@@ -1856,10 +1805,10 @@ F 3 "" H 5750 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Swadge_Parts:C C5
+L Swadge_Parts:C C3
 U 1 1 5C3A91E5
 P 5750 1050
-F 0 "C5" H 5865 1096 50  0000 L CNN
+F 0 "C3" H 5865 1096 50  0000 L CNN
 F 1 "1u" H 5865 1005 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 5788 900 50  0001 C CNN
 F 3 "~" H 5750 1050 50  0001 C CNN
@@ -1968,16 +1917,12 @@ Wire Wire Line
 Wire Notes Line
 	8500 500  8500 2450
 Wire Notes Line
-	3800 500  8500 500 
-Wire Notes Line
-	3800 2450 8500 2450
-Wire Notes Line
 	11150 500  11150 2450
 $Comp
-L Swadge_Parts:C C7
+L Swadge_Parts:C C6
 U 1 1 5F08022B
 P 10750 1350
-F 0 "C7" H 10865 1396 50  0000 L CNN
+F 0 "C6" H 10865 1396 50  0000 L CNN
 F 1 "1u" H 10865 1305 50  0000 L CNN
 F 2 "Swadge_Parts:C_0603_1608Metric" H 10788 1200 50  0001 C CNN
 F 3 "~" H 10750 1350 50  0001 C CNN
@@ -2113,4 +2058,58 @@ Wire Notes Line
 	3700 6500 6950 6500
 Wire Notes Line
 	6950 2500 6950 6500
+Wire Wire Line
+	1750 1050 2600 1050
+Wire Notes Line
+	3700 500  8500 500 
+Wire Notes Line
+	3700 2450 8500 2450
+$Comp
+L Swadge_Parts:C C8
+U 1 1 5ED71BD9
+P 2850 2200
+F 0 "C8" V 2700 2050 50  0000 L CNN
+F 1 "0.01u" V 2700 2200 50  0000 L CNN
+F 2 "Swadge_Parts:C_0603_1608Metric" H 2888 2050 50  0001 C CNN
+F 3 "~" H 2850 2200 50  0001 C CNN
+F 4 "10" H 800 650 50  0001 C CNN "Cost100"
+F 5 "n/a" H 800 650 50  0001 C CNN "Digikey"
+F 6 "Y" H 800 650 50  0001 C CNN "Substitutable"
+	1    2850 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 1250 2550 1250
+Wire Wire Line
+	3200 1950 3000 1950
+Wire Wire Line
+	2700 1950 2550 1950
+Wire Wire Line
+	2550 1950 2550 1250
+Connection ~ 2550 1250
+Wire Wire Line
+	2550 1250 2600 1250
+Wire Wire Line
+	3000 2200 3200 2200
+Wire Wire Line
+	3200 2200 3200 1950
+Wire Wire Line
+	2700 2200 2550 2200
+Wire Wire Line
+	2550 2200 2550 1950
+Connection ~ 2550 1950
+Wire Wire Line
+	3300 1150 3300 1700
+Wire Wire Line
+	3300 1700 3200 1700
+Connection ~ 3200 1950
+Wire Wire Line
+	3200 1700 3200 1950
+Wire Wire Line
+	3250 1950 3200 1950
+Wire Wire Line
+	2050 1700 2050 1800
+Connection ~ 2050 1800
+Wire Wire Line
+	2050 1800 1900 1800
 $EndSCHEMATC
