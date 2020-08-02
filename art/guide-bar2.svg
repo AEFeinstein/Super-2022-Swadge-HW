@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="41.92594"
-     inkscape:cy="80.553587"
+     inkscape:zoom="2"
+     inkscape:cx="37.878077"
+     inkscape:cy="55.655403"
      inkscape:document-units="mm"
-     inkscape:current-layer="g2838"
+     inkscape:current-layer="g2824"
      showgrid="true"
      inkscape:window-width="1858"
      inkscape:window-height="1177"
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,7 @@
      sodipodi:insensitive="true"
      inkscape:groupmode="layer"
      inkscape:label="[fixed] BG"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)">
     <rect
        id="rect2804"
@@ -75,109 +75,115 @@
      id="g2810"
      inkscape:groupmode="layer"
      inkscape:label="B.Cu-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2812"
      inkscape:groupmode="layer"
      inkscape:label="B.Adhes-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2814"
      inkscape:groupmode="layer"
      inkscape:label="F.Adhes-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2816"
      inkscape:groupmode="layer"
      inkscape:label="B.Paste-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2818"
      inkscape:groupmode="layer"
      inkscape:label="F.Paste-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2820"
      inkscape:groupmode="layer"
      inkscape:label="B.SilkS-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2822"
      inkscape:groupmode="layer"
      inkscape:label="F.SilkS-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2824"
      inkscape:groupmode="layer"
-     inkscape:label="B.Mask-disabled"
+     inkscape:label="B.Mask"
      style="display:inline"
-     transform="translate(87.738141,155.46335)" />
+     transform="translate(87.738141,155.46335)">
+    <path
+       inkscape:connector-curvature="0"
+       id="path857-8-0-1"
+       d="m -70.17452,-155.45826 -1.165819,0.0315 -0.885386,0.0581 -0.887593,0.095 -0.88763,0.13126 -0.885497,0.16705 -0.881197,0.20232 -0.874727,0.23706 -0.866088,0.27128 -0.855279,0.30498 -0.842301,0.33816 -0.827155,0.37082 -0.80984,0.40296 -0.790355,0.43457 -0.768701,0.46567 -0.744878,0.49624 -0.718886,0.52629 -0.690725,0.55582 -0.297486,0.26581 -0.295141,0.2922 -0.290471,0.31494 -0.283477,0.334 -0.274157,0.3494 -0.262513,0.36113 -0.248545,0.36919 -0.232252,0.37359 -0.213634,0.37431 -0.192692,0.37138 -0.169424,0.36477 -0.143833,0.35449 -0.115917,0.34056 -0.08568,0.32294 -0.05311,0.30167 -0.01822,0.27673 v 29.4819 l 5.15317,5.15317 h 26.809196 l 5.159372,-5.15937 v -29.4757 l -0.01492,-0.33267 -0.04376,-0.34469 -0.07113,-0.35421 -0.09702,-0.36124 -0.121449,-0.36577 -0.144399,-0.36781 -0.165872,-0.36734 -0.185878,-0.36439 -0.204409,-0.35893 -0.221464,-0.35098 -0.237049,-0.34053 -0.251158,-0.32758 -0.263792,-0.31215 -0.274958,-0.2942 -0.284647,-0.27378 -0.292864,-0.25084 -0.80849,-0.61455 -0.84237,-0.57178 -0.873591,-0.5297 -0.902149,-0.48827 -0.928029,-0.44754 -0.951275,-0.40746 -0.971844,-0.36808 -0.989748,-0.32935 -1.004996,-0.29132 -1.017577,-0.25394 -1.027497,-0.21726 -1.034753,-0.18124 -1.039349,-0.14589 -1.041281,-0.11123 -1.040551,-0.0772 -1.037159,-0.0439 -1.177705,-0.0103 v 0 m 1.002006,5.93142 0.518908,0.0257 0.510121,0.0761 0.497893,0.1251 0.48222,0.17268 0.463106,0.21883 0.440549,0.26355 0.414548,0.30686 0.385105,0.34874 0.348775,0.38507 0.306901,0.41452 0.263602,0.44052 0.218875,0.46309 0.172723,0.4822 0.125145,0.49788 0.07614,0.51012 0.02571,0.5189 -0.02571,0.51891 -0.07614,0.51011 -0.125145,0.49788 -0.172723,0.4822 -0.218875,0.46309 -0.263602,0.44052 -0.306901,0.41452 -0.348775,0.38507 -0.385105,0.34874 -0.414548,0.30686 -0.440549,0.26356 -0.463106,0.21883 -0.48222,0.17267 -0.497893,0.1251 -0.510121,0.0761 -0.518908,0.0257 -0.536754,-0.0271 -0.521248,-0.0796 -0.503104,-0.12938 -0.482322,-0.17654 -0.458901,-0.22107 -0.43284,-0.26297 -0.404143,-0.30221 -0.372805,-0.33883 -0.338831,-0.37281 -0.302216,-0.40414 -0.262963,-0.43284 -0.221073,-0.4589 -0.176542,-0.48232 -0.129374,-0.50311 -0.07957,-0.52125 -0.02712,-0.53675 0.02712,-0.53675 0.07957,-0.52125 0.129374,-0.50311 0.176542,-0.48232 0.221073,-0.4589 0.262963,-0.43284 0.302216,-0.40414 0.338831,-0.37281 0.372805,-0.33883 0.404143,-0.30221 0.43284,-0.26297 0.458901,-0.22107 0.482322,-0.17654 0.503104,-0.12938 0.521248,-0.0796 0.536754,-0.0271 v 0"
+       style="display:inline;opacity:1;fill:#848484;fill-opacity:1;stroke:#000000;stroke-width:0.01;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
   <g
      id="g2828"
      inkscape:groupmode="layer"
      inkscape:label="Dwgs.User-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2830"
      inkscape:groupmode="layer"
      inkscape:label="Cmts.User-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2834"
      inkscape:groupmode="layer"
      inkscape:label="Eco2.User-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2836"
      inkscape:groupmode="layer"
      inkscape:label="Edge.Cuts"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2838"
      inkscape:groupmode="layer"
      inkscape:label="Margin-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2840"
      inkscape:groupmode="layer"
      inkscape:label="B.CrtYd-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2842"
      inkscape:groupmode="layer"
      inkscape:label="F.CrtYd-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2844"
      inkscape:groupmode="layer"
      inkscape:label="B.Fab-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2846"
      inkscape:groupmode="layer"
      inkscape:label="F.Fab-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2848"
      inkscape:groupmode="layer"
      inkscape:label="Drill"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)" />
   <g
      id="g2826"
@@ -196,7 +202,7 @@
      id="g2808"
      inkscape:groupmode="layer"
      inkscape:label="F.Cu"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)">
     <g
        style="display:inline;fill:#000080"
@@ -417,7 +423,7 @@
      id="g2832"
      inkscape:groupmode="layer"
      inkscape:label="Eco1.User-disabled"
-     style="display:inline"
+     style="display:none"
      transform="translate(87.738141,155.46335)">
     <path
        id="path40"
