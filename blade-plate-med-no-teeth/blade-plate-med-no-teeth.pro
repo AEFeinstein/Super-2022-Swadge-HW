@@ -1,7 +1,7 @@
 
-update=5/19/2020 11:32:29 PM
+update=11/16/2020 3:04:14 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -82,7 +82,7 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.2
+SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
 SolderPasteRatio=-0
@@ -235,9 +235,9 @@ Enabled=1
 [pcbnew/Layer.Cmts.User]
 Enabled=1
 [pcbnew/Layer.Eco1.User]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.Eco2.User]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.Edge.Cuts]
 Enabled=1
 [pcbnew/Layer.Margin]
